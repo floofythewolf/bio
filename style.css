@@ -28,6 +28,7 @@ body {
 .banner p {
   color: rgb(97, 166, 255);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5vw;
 }
 .pfp {
   display: flex;
