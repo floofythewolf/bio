@@ -44,10 +44,10 @@ body {
 .pfp img {
   border-radius: 519px;
   margin: auto;
-  transition: 0.5s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 .pfp img:hover {
-  rotate: 360deg;
+  transform: scale(1.05);
 }
 .main {
   display: grid;
@@ -100,12 +100,12 @@ body {
 .button {
   display: flex;
   flex-direction: row;
-  background:rgb(60, 64, 68);
-  border-radius: 519px;
+  background: rgb(52, 55, 58);
+  border-radius: 4px;
   padding: 0.5vw;
   align-items: center;
   margin-block: 1vw;
-  transition: 0.2s ease-out;
+  transition: 0.1s ease-in-out;
 }
 a .button p {
   margin-top: 0vw;
@@ -117,7 +117,7 @@ a .button p {
   display: flex;
   background: rgb(255, 255, 255);
   justify-self: center;
-  border-radius: 519px;
+  border-radius: 4px;
   height: 8vw;
   width: 8vw;
   margin-inline: 1vw;
@@ -126,8 +126,8 @@ a .button p {
   margin: auto;
 }
 .button:hover {
-  background:rgb(0, 66, 153);
-  transform: scale(1.02);
+  background: rgb(59, 62, 65);
+  transform: scaleX(1.01);
 }
 .stats {
   background:rgb(47, 50, 53);
@@ -163,8 +163,8 @@ a .button p {
 }
 .stats a {
   color: rgb(95, 95, 95);
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .stats a:hover {
-  color: rgb(196, 196, 196);
+  color: rgb(150, 150, 150);
 }
