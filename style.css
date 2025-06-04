@@ -44,10 +44,10 @@ body {
 .pfp img {
   border-radius: 519px;
   margin: auto;
-  transition: 0.1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .pfp img:hover {
-  transform: scale(1.05);
+  transform: scale(1.03) rotate(360deg);
 }
 .main {
   display: grid;
