@@ -22,11 +22,11 @@ body {
   margin: 0;
   padding: 0;
   width: 50vw;
-  box-shadow: 0px 0px 0px 0.3vw rgb(0, 71, 163);
+  box-shadow: 0px 0px 0px 0.3vw rgb(179, 23, 132);
 }
 .banner {
   display: flex;
-  background: rgb(0, 110, 255);
+  background: rgb(255, 148, 211);
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   height: 15vw;
@@ -35,7 +35,7 @@ body {
   justify-content: center;
 }
 .banner p {
-  color: rgb(97, 166, 255);
+  color: rgb(255, 210, 244);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2vw;
 }
@@ -57,7 +57,7 @@ body {
 .pfp img {
   border-radius: 519px;
   margin: auto;
-  box-shadow: 0px 0px 0px 0.3vw rgb(0, 71, 163);
+  box-shadow: 0px 0px 0px 0.3vw rgb(197, 34, 156);
 }
 .pfp img:hover {
   animation: 2s ease smoothspin;
@@ -93,8 +93,7 @@ body {
 }
 .sidecontents .sidecontent span {
   font-size: 3.5vw;
-  color: rgb(118, 178, 255);
-  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 118, 221);
   font-weight: bolder;
 }
 .sidecontents .sidecontent p {
@@ -123,7 +122,7 @@ body {
 .button {
   display: flex;
   flex-direction: row;
-  background: rgb(52, 55, 58);
+  background: rgb(58, 52, 56);
   border-radius: 4px;
   padding: 0.5vw;
   align-items: center;
@@ -154,7 +153,7 @@ a .button p {
 .button:hover {
   background: rgb(59, 62, 65);
   transform: scaleX(1.01);
-  box-shadow: 0px 0px 0px 0.3vw rgb(0, 110, 255);
+  box-shadow: 0px 0px 0px 0.3vw rgb(255, 0, 157);
 }
 .stats {
   background: rgb(41, 46, 48);
@@ -173,25 +172,25 @@ a .button p {
 .stats p {
   margin: 0.1vw;
   font-size: 1vw;
-  color: rgb(209, 209, 209)
+  color: rgb(202, 202, 202)
 }
 .stats h1 {
   margin-block: 1vw;
   font-size: 2.5vw;
   font-family: monospace;
-  color: rgb(159, 201, 255);
+  color: rgb(255, 181, 215);
 }
 .stats h2 {
   margin-block: 1vw;
   font-size: 2vw;
-  font-family: 'Courier New', Courier, monospace;
-  color: rgb(127, 162, 207);
+  font-family: monospace;
+  color: rgb(255, 181, 215);
 }
 .stats span {
   margin: 0px;
   font-size: 1vw;
   font-family: 'Courier New', Courier, monospace;
-  color: rgb(165, 165, 165);
+  color: rgb(136, 136, 136);
 }
 .stats p strong {
   color: white;
